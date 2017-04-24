@@ -201,7 +201,7 @@ public class Tabuleiro {
         return valida;
     }
 
-//(não está pronta )Verifica se o jogo chegou ao fim 
+//(não está pronta)Verifica se o jogo chegou ao fim 
     public void setFim() {
         int valor = 1, count = 0;
 
@@ -231,8 +231,8 @@ public class Tabuleiro {
         System.out.println("------------------");
     }
 
-// Cria uma matriz faltando apenas um movimento para finalizer
-    //serve para testar o fim do jogo
+// Cria uma matriz faltando apenas um movimento para finalizar
+//serve para testar o fim do jogo
     public void testeFim() {
         int count = 1;
         for (int i = 0; i < 4; i++) {
